@@ -16,7 +16,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    " Able to take on responsibilities and make decisions with solvency. I have good communication and customer service skills",
+    "Proficient in multiple programming languages and tools, including React, Node.js, JavaScript, and more. Able to take on responsibilities and make decisions with solvency.",
 
   info: [
     {
@@ -32,8 +32,8 @@ const about = {
       fieldValue: "3+ Years",
     },
     {
-      fieldName: "Skype?",
-      fieldValue: "Simón Monsalve",
+      fieldName: "Age",
+      fieldValue: "23 years old",
     },
     {
       fieldName: "Nationality",
