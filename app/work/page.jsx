@@ -51,12 +51,23 @@ const projects =[
   {
     num: "04",
     category:"frontend",
-    title:"project 3",
+    title:"project 4",
     description:
      "Development, design and maintenance of the website. Implement of automation and workflows processes",
      stack:[{name:"Html 5"},{name:"Css 3" }, {name: "Javascript"}, {name: "GoHighLevel"}],
      image:"/assets/work/emprendetec.png",
-     live:"https://www.dohmi.com/",
+     live:"https://www.emprendetec.es/",
+     github:"",
+  },
+  {
+    num: "05",
+    category:"fullstack",
+    title:"project 5",
+    description:
+     "Full-stack development of employee management system with time tracking, Kanban tasks & analytics.",
+     stack:[{name:"Angular"},{name:"MariaDB" }, {name: "AWS"}, {name: "Firebase"}, {name: "Stripe"}], 
+     image:"/assets/work/inimble.jpg",
+     live:"https://inimbleapp.com/",
      github:"",
   },
 ]

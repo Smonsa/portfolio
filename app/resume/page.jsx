@@ -7,6 +7,10 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaAngular,
+  FaAws,
+  FaGitSquare,
+  FaDatabase,
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
@@ -33,7 +37,7 @@ const about = {
     },
     {
       fieldName: "Age",
-      fieldValue: "23 years old",
+      fieldValue: "24 years old",
     },
     {
       fieldName: "Nationality",
@@ -61,6 +65,11 @@ const experience = {
   description:
     "With more than three years of experience developing a wide variety of projects. Mainly focused on web development but always willing to learn new tools, languages and skills.",
   items: [
+    {
+      company: "Inimble LLC",
+      position: "Full-Stack Web Developer",
+      duration: "December 2024 - June 2025",
+    },
     {
       company: "Dohmi Culinary Istitute",
       position: "Software Developer",
@@ -146,6 +155,22 @@ const skills = {
     {
       icon: <FaFigma />,
       name: "figma",
+    },
+    {
+      icon: <FaAngular />,
+      name: "angular",
+    },
+    {
+      icon: <FaAws />,
+      name: "Aws",
+    },
+    {
+      icon: <FaGitSquare />,
+      name: "Git",
+    },
+    {
+      icon: <FaDatabase />,
+      name: "Database",
     },
   ],
 };
