@@ -70,6 +70,17 @@ const projects =[
      live:"https://inimbleapp.com/",
      github:"",
   },
+  {
+    num: "06",
+    category:"fullstack",
+    title:"project 6",
+    description:
+     "Full-stack development of a platform that empowers students tocreate their own professional CVs and recommends company courses based on the student's profile, increasing personalization and upselling opportunities",
+     stack:[{name:"React"},{name:"Vite" }, {name: "Node.js"}, {name: "Firebase"}, {name: "Google cloud"}], 
+     image:"/assets/work/kinedrik.jpg",
+     live:"https://onboarding.laruniversity.com/login",
+     github:"https://github.com/automatizacioneskinedrik-hash/Onboarding-dev",
+  },
 ]
 
 const Work = () => {

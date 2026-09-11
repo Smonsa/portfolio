@@ -20,7 +20,7 @@ const Home = () => {
               Hello, I'm <br /> <span className="text-accent">Simón Monsalve.</span> 
             </h1>
             <p className="max-w-[500px] mb-9 text-white">
-            Dedicated computer engineer with over 3 years of experience
+            Dedicated computer engineer with over 4 years of experience
             crafting innovative solutions. Proficient in multiple programming
             languages and tools, including React, Node.js, JavaScript, and more.
             I thrive on creating efficient and user-centric solutions. 

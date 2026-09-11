@@ -11,7 +11,11 @@ import {
   FaAws,
   FaGitSquare,
   FaDatabase,
+  FaDocker,
+  FaPython,
 } from "react-icons/fa";
+
+import { SiPostman, SiGooglecloud } from "react-icons/si";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -33,11 +37,11 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "3+ Years",
+      fieldValue: "4+ Years",
     },
     {
       fieldName: "Age",
-      fieldValue: "24 years old",
+      fieldValue: "25 years old",
     },
     {
       fieldName: "Nationality",
@@ -63,8 +67,13 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "With more than three years of experience developing a wide variety of projects. Mainly focused on web development but always willing to learn new tools, languages and skills.",
+    "With more than four years of experience developing a wide variety of projects. Mainly focused on web development but always willing to learn new tools, languages and skills.",
   items: [
+    {
+      company: "Kinedrik - Eadic",
+      position: "Automation Developer",
+      duration: "March 2026 - Present",
+    },
     {
       company: "Inimble LLC",
       position: "Full-Stack Web Developer",
@@ -172,6 +181,22 @@ const skills = {
       icon: <FaDatabase />,
       name: "Database",
     },
+    {
+      icon: <FaDocker />,
+      name: "Docker",
+    },
+    {
+      icon: <SiPostman />,
+      name: "Postman",
+    },
+    {
+      icon: <SiGooglecloud />,
+      name: "Google Cloud",
+    },
+    {
+      icon: <FaPython />,
+      name:"Python",
+    }
   ],
 };
 
