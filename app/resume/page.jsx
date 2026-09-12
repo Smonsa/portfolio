@@ -15,9 +15,7 @@ import {
   FaPython,
 } from "react-icons/fa";
 
-import { SiPostman, SiGooglecloud } from "react-icons/si";
-
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiTypescript,  SiPostman, SiGooglecloud } from "react-icons/si";
 
 //about data
 
@@ -196,6 +194,10 @@ const skills = {
     {
       icon: <FaPython />,
       name:"Python",
+    },
+    {
+      icon: <SiTypescript />,
+      name:"Typescript",
     }
   ],
 };
